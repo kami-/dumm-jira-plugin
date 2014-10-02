@@ -1,9 +1,15 @@
-<form>
-    <label for="issueKey">Issue Key</label>
-    <input type="text" name="issueKey">
-    <label for="userName">Username</label>
-    <input type="text" name="userName">
-    <label for="message">Message</label>
-    <textarea name="message"></textarea>
-    <button>Create</button>
+<form class="aui">
+    <div class="field-group">
+        <label for="issueKey">Issue Key</label>
+        <input class="text" type="text" name="issueKey">
+    </div>
+    <div class="field-group">
+        <label for="userName">Username</label>
+        <input class="text" type="text" name="userName">
+    </div>
+    <div class="field-group">
+        <label for="message">Message</label>
+        <textarea class="textarea" rows="12" name="message"></textarea>
+    </div>
+    <button class="aui-button aui-button-primary">Create</button>
 </form>
