@@ -1,0 +1,9 @@
+<form>
+    <label for="issueKey">Issue Key</label>
+    <input type="text" name="issueKey">
+    <label for="userName">Username</label>
+    <input type="text" name="userName">
+    <label for="message">Message</label>
+    <textarea name="message"></textarea>
+    <button>Create</button>
+</form>
